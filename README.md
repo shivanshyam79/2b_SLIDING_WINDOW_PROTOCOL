@@ -8,7 +8,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-,,,
+```
 CLIENT: 
  
 import socket 
@@ -38,7 +38,7 @@ s.connect(('localhost',8000))
 while True:    
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode()) 
-,,, 
+``` 
 ## OUPUT
 ![362234479-f84fede8-ef81-4ce6-a33a-5f7d086eb1c5](https://github.com/user-attachments/assets/bab75e33-c30a-41d7-b74b-c6be0a669d1f)
 
